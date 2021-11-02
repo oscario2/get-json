@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "esbuild",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "smartStep": true,
+            "runtimeExecutable": "node",
+            "runtimeArgs": ["--inspect-brk", "index.test.js"],
+            "outputCapture": "std",
+            "port": 9229,
+        }
+    ]
+}
